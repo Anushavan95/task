@@ -1,0 +1,12 @@
+@mixin catsBlock {
+  width: 300px;
+  height: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+@mixin flexMixin($just, $align) {
+  display: flex;
+  justify-content: $just;
+  align-items: $align;
+}
